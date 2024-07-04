@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url("../../public/assets/font/PlusJakartaSans-VariableFont_wght.ttf") format("ttf"),
+         url("../../public/assets/font/static/PlusJakartaSans-Medium.ttf") format("ttf"),
+         url("../../public/assets/font/static/PlusJakartaSans-ExtraBold.ttf")  format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer base {
+    body {
+        @apply font-Plus-Jakarta-Sans;
+    }
+}
