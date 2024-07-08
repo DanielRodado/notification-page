@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notifications</title>
+        <link rel="shortcut icon" href="./public/assets/icons/notification.png" type="image/x-icon">
+        <link rel="stylesheet" href="./public/css/styles.css" />
+    </head>
+    <body>
+        <div class="bg-white p-4 mt-5 max-w-screen-md md:mx-auto">
+            <header class="flex justify-between items-end">
+                <div class="flex items-center gap-2">
+                    <h2 class="text-xl font-extrabold">Notifications</h2>
+                    <p
+                        class="px-3 rounded-md bg-blue text-white font-bold"
+                        id="countNotifications"
+                    >
+                        3
+                    </p>
+                </div>
+                <p class="text-grayish-blue-dark cursor-pointer" id="clearNotifications">Mark all as read</p>
+            </header>
+            <main>
+                <div class="mt-7 flex flex-col gap-2">
+                    <article
+                        class="flex gap-2 p-4 rounded-md cursor-pointer bg-grayish-blue-light-1"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-mark-webber.webp"
+                                alt="Mark Webber"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold">Mark Webber</span>
+                                reacted to your recent post
+                                <span class="font-bold">My first tournament today! </span
+                                ><span
+                                    class="rounded-full bg-red px-2 ml-1"
+                                ></span>
+                            </h2>
+                            <p class="text-grayish-blue">1m ago</p>
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md cursor-pointer bg-grayish-blue-light-1"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-angela-gray.webp"
+                                alt="Angela Gray"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold">Angela Gray</span>
+                                followed you
+                                <span
+                                    class="rounded-full bg-red px-2 ml-1"
+                                ></span>
+                            </h2>
+                            <p class="text-grayish-blue">5m ago</p>
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md cursor-pointer bg-grayish-blue-light-1"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-jacob-thompson.webp"
+                                alt="Jacob Thompson"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold"
+                                    >Jacob Thompson</span
+                                >
+                                has joined your group
+                                <span class="font-bold text-blue"
+                                    >Chess Club</span
+                                ><span
+                                    class="rounded-full bg-red px-2 ml-1"
+                                ></span>
+                            </h2>
+                            <p class="text-grayish-blue">1 day ago</p>
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-rizky-hasanuddin.webp"
+                                alt="Rizky Hasanuddin"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold"
+                                    >Rizky Hasanuddin</span
+                                >
+                                sent you a private message
+                            </h2>
+                            <p class="text-grayish-blue">5 days ago</p>
+                            <p class="mt-4 p-5 bg-grayish-blue-very-light text-grayish-blue-dark md:text-pretty">
+                                Hello, thanks for setting up the Chess Club.
+                                I've been a member for a few weeks now and I'm
+                                already having lots of fun and improving my
+                                game.
+                            </p>
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-kimberly-smith.webp"
+                                alt="Kimberly Smith"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold"
+                                    >Kimberly Smith</span
+                                >
+                                commented on your picture
+                            </h2>
+                            <p class="text-grayish-blue">1 week ago</p>
+                        </div>
+                        <div>
+                            <img class="w-10 object-cover" src="./public/assets/images/image-chess.webp" alt="Chess">
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-nathan-peterson.webp"
+                                alt="Nathan Peterson"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold"
+                                    >Nathan Peterson</span
+                                >
+                                reacted to your recent post
+                                <span class="font-bold"
+                                    >5 end-game strategies to increase your win rate</span
+                                >
+                            </h2>
+                            <p class="text-grayish-blue">2 weeks ago</p>
+                        </div>
+                    </article>
+                    <article
+                        class="flex gap-2 p-4 rounded-md"
+                    >
+                        <div>
+                            <img
+                                class="w-10 object-cover"
+                                src="./public/assets/images/avatar-anna-kim.webp"
+                                alt="Anna Kim"
+                            />
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-grayish-blue-dark">
+                                <span class="text-blue-very-dark font-extrabold"
+                                    >Anna Kim</span
+                                >
+                                has joined your group
+                                <span class="font-bold text-blue"
+                                    >Chess Club</span
+                                >
+                            </h2>
+                            <p class="text-grayish-blue">2 weeks ago</p>
+                        </div>
+                    </article>
+                </div>
+            </main>
+        </div>
+        <script type="module" src="./public/js/main.js"></script>
+    </body>
+</html>
