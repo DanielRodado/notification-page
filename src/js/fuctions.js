@@ -26,13 +26,13 @@ const removeDotNotification = (notification) => {
         : null;
 };
 
-const removeBackgroundNotification = (notification) => {
-    notification.classList.remove("bg-grayish-blue-light-1");
+const removeStylesNotification = (notification) => {
+    notification.classList.remove("bg-grayish-blue-light-1", "cursor-pointer");
 };
 
 const removeNotificationPending = (notification) => {
     removeDotNotification(notification);
-    removeBackgroundNotification(notification);
+    removeStylesNotification(notification);
 };
 
 export const clearNotifications = (countNotifications) => {
