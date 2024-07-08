@@ -2,7 +2,7 @@
 
 Esta es una solución al [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Los retos de Frontend Mentor te ayudan a mejorar tus habilidades de programación mediante la creación de proyectos realistas.
 
-## Table of contents
+## Tabla de contenido
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
