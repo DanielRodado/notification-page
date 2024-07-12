@@ -8,7 +8,7 @@ const getNotificationNumber = () => {
     return getAllPendingNotifications().length;
 };
 
-export const updateCountNotifications = (elementHTML) => {
+const updateCountNotifications = (elementHTML) => {
     elementHTML.innerText = getNotificationNumber();
 };
 

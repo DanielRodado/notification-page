@@ -101,8 +101,7 @@
     },
     "scripts": {
         "build:css": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --minify",
-        "build:js": "babel ./src/js --out-dir ./public/js",
-        "build": "npm run build:css && npm run build:js",
+        "build": "npm run build:css",
         "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --watch"
     },
     "author": "Daniel Rodado",
