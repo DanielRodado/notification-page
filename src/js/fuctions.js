@@ -13,9 +13,7 @@ export const updateCountNotifications = (elementHTML) => {
 };
 
 const verifyElementDot = (notification) => {
-    return notification.lastElementChild.firstElementChild.lastElementChild.classList.contains(
-        "bg-red"
-    );
+    return notification.lastElementChild.firstElementChild.lastElementChild.classList.contains("bg-red");
 };
 
 const removeDotNotification = (notification) => {
@@ -42,10 +40,7 @@ export const clearNotifications = (countNotifications) => {
     updateCountNotifications(countNotifications);
 };
 
-export const addEventClickNotifications = (
-    listOfNotifications,
-    countNotifications
-) => {
+export const addEventClickNotifications = (listOfNotifications, countNotifications) => {
     listOfNotifications.forEach((notification) => {
         notification.addEventListener("click", () => {
             removeNotificationPending(notification);
