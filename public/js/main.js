@@ -4,7 +4,7 @@ import {
     getAllPendingNotifications,
     addEventClickNotifications,
     clearNotifications,
-} from "../../src/js/fuctions.js";
+} from "./fuctions.js";
 
 const $clearNotifications = document.getElementById("clearNotifications");
 const $countNotifications = document.getElementById("countNotifications");
