@@ -104,10 +104,10 @@
         "yaml": "^2.4.5"
     },
     "scripts": {
-        "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --watch",
         "build:css": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --minify",
         "build:js": "webpack --mode production",
-        "build": "npm run build:css && build:js"
+        "build": "npm run build:css && npm run build:js",
+        "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --watch"
     },
     "author": "Daniel Rodado",
     "license": "ISC",
