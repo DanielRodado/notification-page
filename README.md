@@ -28,7 +28,7 @@ Los usuarios deben ser capaces de:
 
 ### Link
 
--   URL del sitio web: [Notification page](notification-page-daniel-dev.vercel.app)
+-   URL del sitio web: [Notification page](https://notification-page-daniel-dev.vercel.app/)
 
 ### Construido con
 
