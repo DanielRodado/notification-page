@@ -86,17 +86,18 @@ notifications-page/
 ├── node_modules/
 │
 ├── public/
-│   └── css/
+|   ├── assets/
+│   ├── css/
 │   │   └── styles.css
 │   └── js/
 │       ├── script.js
-│       └── functions.js
 │
 ├── src/
-│   ├── css/
+│   └── css/
 │   │   └── tailwind.css
 │   ├── js/
-│   │   ├── script.js
+│   │   ├── main.js
+│       └── functions.js
 │
 ├── .gitignore
 ├── package.json
