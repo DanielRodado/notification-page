@@ -86,7 +86,7 @@ notifications-page/
 ├── node_modules/
 │
 ├── public/
-|   ├── assets/
+│   ├── assets/
 │   ├── css/
 │   │   └── styles.css
 │   └── js/
